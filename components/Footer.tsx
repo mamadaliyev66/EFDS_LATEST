@@ -58,7 +58,7 @@ export default function Footer() {
             </ul>
           </div> */}
 
-          <div>
+{/*           <div>
             <h3 className="font-semibold mb-4">{t("footer.company")}</h3>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
@@ -77,7 +77,7 @@ export default function Footer() {
                 </Link>
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
 
         <div className="border-t border-border mt-8 pt-8 text-center text-sm text-muted-foreground">
