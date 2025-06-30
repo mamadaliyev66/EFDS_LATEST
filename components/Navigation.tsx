@@ -51,7 +51,7 @@ export default function Navigation() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 md:ml-none ml-20">
+      <div className="max-w-7xl md:mx-auto px-4 sm:px-6 lg:px-8  ml-20">
         <div className="flex items-center justify-between h-16">
            {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
