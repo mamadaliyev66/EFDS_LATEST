@@ -20,7 +20,7 @@ export default function ModernSidebar() {
   const menuItems = [
     { href: "/", icon: Home, label: t("nav.home") },
     { href: "/about", icon: Info, label: t("nav.about") },
-    // { href: "/products", icon: Package, label: t("nav.products") },
+    { href: "/products", icon: Package, label: t("nav.products") },
     { href: "/technology", icon: Cpu, label: t("nav.technology") },
     { href: "/contact", icon: Phone, label: t("nav.contact") },
   ]
