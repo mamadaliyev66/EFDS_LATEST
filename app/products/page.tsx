@@ -23,13 +23,13 @@ export default function Products() {
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null)
 
   const products: Product[] = [
-    {
-      icon: Shield,
-      image: "https://www.milesight-iot.com/wp-content/uploads/2020/06/Smart-IoT-Based-Sensor-Networks-For-Intelligent-CO2-Monitoring-and-Reliable-Forest-Fire-Detection.jpg",
-      title: t("products.smoke.title"),
-      description: t("products.smoke.description"),
-      features: [t("products.smoke.feature1"), t("products.smoke.feature2"), t("products.smoke.feature3")],
-    },
+    // {
+    //   icon: Shield,
+    //   image: "https://www.milesight-iot.com/wp-content/uploads/2020/06/Smart-IoT-Based-Sensor-Networks-For-Intelligent-CO2-Monitoring-and-Reliable-Forest-Fire-Detection.jpg",
+    //   title: t("products.smoke.title"),
+    //   description: t("products.smoke.description"),
+    //   features: [t("products.smoke.feature1"), t("products.smoke.feature2"), t("products.smoke.feature3")],
+    // },
     {
       icon: Thermometer,
       image: "https://assets.bosch.com/media/en/global/stories/early_forest_fire_detection_sensors/system-infographic_res_400x225.webp",
@@ -37,13 +37,13 @@ export default function Products() {
       description: t("products.heat.description"),
       features: [t("products.heat.feature1"), t("products.heat.feature2"), t("products.heat.feature3")],
     },
-    {
-      icon: Radio,
-      image: "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41598-021-03882-9/MediaObjects/41598_2021_3882_Fig1_HTML.jpg",
-      title: t("products.wireless.title"),
-      description: t("products.wireless.description"),
-      features: [t("products.wireless.feature1"), t("products.wireless.feature2"), t("products.wireless.feature3")],
-    },
+    // {
+    //   icon: Radio,
+    //   image: "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41598-021-03882-9/MediaObjects/41598_2021_3882_Fig1_HTML.jpg",
+    //   title: t("products.wireless.title"),
+    //   description: t("products.wireless.description"),
+    //   features: [t("products.wireless.feature1"), t("products.wireless.feature2"), t("products.wireless.feature3")],
+    // },
     {
       icon: Monitor,
       image: "https://www.asmag.com/thumbnail.ashx?max=500&file=/upload/pic/case/41224.3714354.jpg",
