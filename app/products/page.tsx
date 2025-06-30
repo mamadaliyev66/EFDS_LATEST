@@ -101,7 +101,7 @@ export default function Products() {
                 {selectedProduct.features.map((feature, i) => (
                   <li key={i} className="flex items-center space-x-3">
                     <div className="w-3 h-3 bg-red-600 rounded-full"></div>
-                    <span className="text-base">{feature}</span>
+                     <span className="text-base">{feature}</span>
                   </li>
                 ))}
               </ul>
