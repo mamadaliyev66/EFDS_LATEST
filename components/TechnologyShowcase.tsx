@@ -138,7 +138,7 @@ export default function TechnologyShowcase() {
         >
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {[
-              { icon: Zap, title: t("tech.advanced.speed"), value: "<0.01c" },
+              { icon: Zap, title: t("tech.advanced.speed"), value: "<0.01s" },
               { icon: Shield, title: t("tech.advanced.accuracy"), value: "90-95%" },
               { icon: Cloud, title: t("tech.advanced.coverage"), value: "24/7" },
               { icon: Smartphone, title: t("tech.advanced.integration"), value: "100%" },
