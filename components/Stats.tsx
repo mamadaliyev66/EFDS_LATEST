@@ -12,7 +12,7 @@ export default function Stats() {
       label: t("stats.accuracy"),
     },
     {
-      number: "<3с",
+      number: "<0.01s",
       label: t("stats.response"),
     },
     {
